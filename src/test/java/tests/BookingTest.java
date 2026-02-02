@@ -21,7 +21,7 @@ public class BookingTest extends BaseTest {
                         .body("{ \"username\": \"admin\", \"password\": \"password123\" }")
                         .when()
                         .post("/auth")
-                        .then()
+                          .then()
                         .statusCode(200)
                         .extract()
                         .jsonPath()
@@ -59,7 +59,7 @@ public class BookingTest extends BaseTest {
         System.out.println("BOOKING ID = " + bookingId);
     }
 
-    // ⃣GET BOOKING
+    // GET BOOKING
     @Test(priority = 3)
     public void getBooking() {
 
