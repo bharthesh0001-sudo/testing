@@ -20,7 +20,7 @@ public class Cookies_Header {
                 .cookie("AEC","AaJma5t1lEaoXFMnlvYT8GJhBi2sWtZbjWUDSmG3iVSB10efC-g5d7da9dM")
                 .log().all();
 
-
+///
     }
     @Test(priority = 2)
     void  getCookies()
